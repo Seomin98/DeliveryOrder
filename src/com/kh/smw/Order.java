@@ -16,33 +16,33 @@ public class Order {
 		this.menu = menu;
 	}
 	
-	public Order(String orders, String brand, String menu) {
-		this.orders = orders;
+	public Order(String food, String brand, String menu) {
+		this.orders = food;
 		this.brand = brand;
 		this.menu = menu;
 	}
 	
 	
 	// getter 메소드
-	public String getorders() {
+	public String getOrders() {
 		return this.orders;
 	}
-	public String getbrand() {
+	public String getBrand() {
 		return this.brand;
 	}
 	
-	public String getmenu() {
+	public String getMenu() {
 		return this.menu;
 	}
 	
 	// setter 메소드
-	public void setorders(String orders) {
+	public void setOrders(String orders) {
 		this.orders = orders;
 	}
-	public void setbrand1(String brand) {
+	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	public void setmenu(String menu) {
+	public void setMenu(String menu) {
 		this.menu = menu;
 	}
 }
